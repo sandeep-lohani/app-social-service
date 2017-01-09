@@ -21,7 +21,7 @@ This is a web project to get,post,like and dislike a story on social site.
 	+ Run java command to run this jar java –jar jarname from /target folder
 
 ##Dependencies
-Included dependency for junit 
+Included dependency for junit & google gson 
 
 ##How to Run	
 	+ Either hit any of the service URLs on the browser or run the Junit test under test package 
