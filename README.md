@@ -12,9 +12,9 @@ This is a web project to get,post,like and dislike a story on social site.
 	
 	
 	> Available Services 
-			GET-http://localhost:8080/story/{id} 
-			POST-http://localhost:8080/story/{id} 
-			PUT-http://localhost:8080/story/{id}/like & http://localhost:8080/story/{id}/dislike
+		GET-http://localhost:8080/story/{id} pass a story id, gets the popularity
+		POST-http://localhost:8080/story/{id} pass a json body {"popularity":somenumber}, sets the popularity
+		PUT-http://localhost:8080/story/{id}/like & http://localhost:8080/story/{id}/dislike pass an id, changes popularity by 1 
   
 #Set-up
 	+ Maven build project using command mvn:install which compiles the application, creates a jar and runs the Junit tests.
