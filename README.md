@@ -9,6 +9,12 @@ This is a web project to get,post,like and dislike a story on social site.
 	+ the website runs on 8080 port of ‘localhost’ i.e. http://localhost:8080/, via embedded application server 
 	+ In memory collection is used to persis the popularity count
   	+ Input/output data type is JSON
+	
+	
+	> Available Services 
+			GET-http://localhost:8080/story/{id} 
+			POST-http://localhost:8080/story/{id} 
+			PUT-http://localhost:8080/story/{id}/like & http://localhost:8080/story/{id}/dislike
   
 #Set-up
 	+ Maven build project using command mvn:install which compiles the application, creates a jar and runs the Junit tests.
@@ -16,13 +22,6 @@ This is a web project to get,post,like and dislike a story on social site.
 
 ##Dependencies
 Included dependency for junit 
-
-
-	> Available Services 
-			GET-http://localhost:8080/story/{id} 
-			POST-http://localhost:8080/story/{id} 
-			PUT-http://localhost:8080/story/{id}/like & http://localhost:8080/story/{id}/dislike
-		
 
 ##How to Run	
 	+ Either hit any of the service URLs on the browser or run the Junit test under test package 
